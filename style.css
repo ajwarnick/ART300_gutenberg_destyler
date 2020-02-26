@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#drop_zone{
+    border: white solid 10px;
+    text-align: center;
+    width: 80vw;
+    font-size: 4em;
+    color: white;
+    padding: 30vh 30px;
+    margin: auto;
+    /* height: 75vh; */
+}
+
+
+
+.dragover{
+    background: linear-gradient(228deg, #0000ff, yellow, #0000ff);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
