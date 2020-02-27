@@ -10,7 +10,7 @@ function printFile(file) {
 
 
         if( new_html.match( head_styles ) ){
-            new_html = new_html.replace(head_styles, "");
+            new_html = new_html.replace(head_styles, '<link rel="stylesheet" href="style.css">');
         }
 
         // to match
